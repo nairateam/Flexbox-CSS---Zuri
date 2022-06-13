@@ -1,0 +1,52 @@
+body{
+    background: rgb(47, 53, 53);
+}
+
+#container {
+    margin: 5% auto;
+    width: 60%;
+    display: grid;
+    grid-template-areas: 
+        'one one one two'
+        'three three four four'
+        /* 'three three fve fve' */
+    ;
+    grid-gap: 1rem;
+}
+
+.item {
+    padding: 6rem;
+    
+}
+
+.nest {
+    display: grid;
+    gap: 1rem;
+}
+
+.one {
+    background-color: orangered;
+    grid-area: one;
+}
+
+.two {
+    background-color: rgb(204, 226, 77);
+    grid-area: two;
+}
+
+.three {
+    background-color: rgb(26, 121, 46);
+    grid-area: three;
+}
+
+.nest {
+    grid-area: four;
+}
+
+.four {
+    background-color: rgb(100, 205, 237);
+}
+
+.five {
+    background-color: rgb(100, 205, 237);
+}

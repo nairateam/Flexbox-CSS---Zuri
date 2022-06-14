@@ -82,6 +82,45 @@ body {
     border-radius: 0 6px 6px 0;
 }
 
+.switchBtn {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 104, 112, 0.048);
+    width: 14rem;
+    padding: 1rem 0;
+    border-radius: 30px;
+}
+
+.btnSwitch_pry {
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(31, 77%, 52%);
+    border: 0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px 0 0 10px;
+}
+
+.btnSwitch_menu {
+    color: #fff;
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(179, 100%, 13%);
+    border: 0;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0 10px 10px 0;
+}
+
+.btnSwitch_menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btnSwitch_pry a {
+    text-decoration: none;
+    color: #fff;
+}
+
 @media (max-width: 375px) {
     #container {
         display: flex;
